@@ -25,8 +25,8 @@ public class Main {
             }
 
         }
-        int year = 2016;
-        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 ==100) ){
+        int year = 2018;
+        if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 ==0) ){
             System.out.println(year + " год весокосный");
         } else {
             System.out.println(year + " год не весокосный");
